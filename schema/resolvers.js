@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 class Course {
   constructor(
     id,
-    { courseName, category, price, language, email, stack, teachAssists }
+    { courseName, category, price, language, email, stack, teachingAssists }
   ) {
     this.id = id;
     this.courseName = courseName;
@@ -12,7 +12,7 @@ class Course {
     this.language = language;
     this.email = email;
     this.stack = stack;
-    this.teachAssists = teacherAssists;
+    this.teachingAssists = teachingAssists;
   }
 }
 
